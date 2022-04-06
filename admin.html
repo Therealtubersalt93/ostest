@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Admin</title>
+<script src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+socket = io()
+$("#eval").submit(function(){
+var code = document.getElementById('code').value;
+socket.emit("cmd", code);
+});
+</script>
+<form id="eval" action=""><input id="code" type="text"><input type="submit" value="Evaluate"></form>
+</body>
+</html>

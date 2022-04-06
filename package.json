@@ -1,0 +1,21 @@
+{
+  "name": "Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "captcha-cv-ocr": "^1.1.1",
+    "email": "^0.2.6",
+    "express": "^4.17.1",
+    "karma": "^5.2.3",
+    "mailgun-validate-email": "^2.1.0",
+    "youarei": "^1.0.3"
+  }
+}
